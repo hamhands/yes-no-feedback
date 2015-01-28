@@ -2,6 +2,10 @@
 
 {% block content %}
 
-<p>Hello, world</p>
+{% if jerk_status %}
+<span class="jerk-status jerk-status-yes">Yes</span>
+{% else %}
+<span class="jerk-status jerk-status-no">No</span>
+{% endif %}
 
 {% endblock %}

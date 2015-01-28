@@ -1,0 +1,15 @@
+.jerk-status {
+  font-size: 120px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.jerk-status-yes {
+  color: red;
+}
+
+.jerk-status-no {
+  color: green;
+}
